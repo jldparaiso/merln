@@ -1,0 +1,73 @@
+    html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+                height: 50vh;
+            }
+
+            .image-index{
+                margin-top: 10vh;
+                height: 150px;
+            }
+
+            .banner {
+
+                font-size: 64px;
+            }
+
+            
+
+            .m-b-md {
+                margin-top: 300px;
+            }
+
+    .navbar,
+    #item-card,
+    .jumbotron{
+        background-color: black !important;
+    }
+
+    .jumbotron{
+        height: 180px;
+    }
+
+    #profile-pic{
+        border-radius: 50%;
+        height: 170px;
+        width: 170PX;
+        border: solid 4px white;
+    }
+
+    #latestBook{
+        border: solid 1px black;
+        border-radius: 2.5%;
+    }
+
+    

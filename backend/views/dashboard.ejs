@@ -1,0 +1,110 @@
+<h1 class="mt-4">Dashboard</h1>
+<a href="/users/logout" class="btn btn-secondary mb-3">Logout</a>
+
+	<div class="container">
+
+		<div class="jumbotron text-white" >
+			<div class="row">
+				<div class="col">
+					  <h1 class="display-4"><%= user.name %></h1>
+					 
+					</div>
+				
+				<div class="col" >
+				  <div class="text-right">
+				  	<img src="{{asset('images/student.png')}}" class="img-fluid" id="profile-pic">
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div id="latestBook" class="card my-5">
+					<div class="card-body">
+						<div class="row">
+							<div class="col">
+								<h5><i class="far fa-calendar-check text-success fa-2x"></i><small><strong> 14 Apr 2019</strong></small></h5>
+							</div>
+							<div class="col">
+								<h4>You reserved a table at The Bowery NY</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<h4 class="my-4">Booking History</h4>
+				<div class="card my-5">
+
+					<div class="card-body">
+
+						<div class="row">
+							<div class="col">
+								<strong>Restaurant</strong>
+							</div>
+							<div class="col">
+								<strong>Transaction Code</strong>
+							</div>
+							<div class="col">
+								<strong>Status</strong>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-body">
+						<div class="row">
+
+							<div class="col">
+								The Boru
+							</div>
+							<div class="col">
+								TXRFJ112019
+							</div>
+							<div class="col">
+								<span class="badge badge-pill badge-success">Booked</span>
+							</div>
+
+						</div>
+
+						<div class="row">
+
+							<div class="col">
+								Angus Steakhouse
+							</div>
+							<div class="col">
+								TXRFJ122519
+							</div>
+							<div class="col">
+								<span class="badge badge-pill badge-danger">Cancelled</span>
+							</div>
+
+						</div>
+
+						<div class="row">
+
+							<div class="col">
+								El Tapa
+							</div>
+							<div class="col">
+								TXRFJ112019
+							</div>
+							<div class="col">
+								<span class="badge badge-pill badge-success">Booked</span>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+
+		
+	</div>
